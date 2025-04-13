@@ -1,33 +1,26 @@
 # Product Management REST API
 
-A modern PHP 8.x REST API for managing products, built with best practices and modern PHP features.
-
 ## Features
 
 - RESTful API endpoints for CRUD operations on products
-- PostgreSQL database integration
-- Input validation using PHP Attributes
-- Repository pattern implementation
-- DTO (Data Transfer Object) usage
-- Modern PHP 8.2+ features (Enums, readonly properties, etc.)
-
+ 
 ## Requirements
 
 - PHP 8.2 or higher
 - PostgreSQL
 - Composer
-- Docker (optional)
+- Docker  
 
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone <repository-url>
+``` 
+git clone https://github.com/Sergey2829/suziria_api
 cd product-api
 ```
 
 2. Install dependencies:
-```bash
+```
 composer install
 ```
 
@@ -61,7 +54,7 @@ psql -d product_api -c "CREATE TABLE products (
 ## Running with Docker
 
 1. Build and start the containers:
-```bash
+```
 docker-compose up -d
 ```
 
@@ -113,28 +106,4 @@ The Docker setup includes:
   - `category` (optional): Filter by category
   - `maxPrice` (optional): Filter by maximum price
 
-## Development
-
-The project follows PSR-4 autoloading standards and is structured as follows:
-
-```
-src/
-├── Config/         # Configuration classes
-├── Controller/     # API controllers
-├── Entity/         # Domain entities
-├── Repository/     # Data access layer
-├── Service/        # Business logic
-└── DTO/            # Data Transfer Objects
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+ 
