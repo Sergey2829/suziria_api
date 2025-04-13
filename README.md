@@ -16,7 +16,7 @@
 1. Clone the repository:
 ``` 
 git clone https://github.com/Sergey2829/suziria_api
-cd product-api
+cd suziria_api
 ```
 
 2. Install dependencies:
